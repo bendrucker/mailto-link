@@ -1,0 +1,35 @@
+{
+  "name": "mailto-link",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate a mailto protocol link",
+  "license": "MIT",
+  "repository": "bendrucker/mailto-link",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "mailto",
+    "protocol",
+    "mail",
+    "link"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "assert-ok": "~1.0.0",
+    "cast-array": "~1.0.0",
+    "object-filter": "~1.0.2",
+    "query-string": "~2.4.1"
+  }
+}

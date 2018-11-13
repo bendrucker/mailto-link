@@ -1,4 +1,4 @@
-# mailto-link [![Build Status](https://travis-ci.org/bendrucker/mailto-link.svg?branch=master)](https://travis-ci.org/bendrucker/mailto-link)
+# mailto-link [![Build Status](https://travis-ci.org/bendrucker/mailto-link.svg?branch=master)](https://travis-ci.org/bendrucker/mailto-link) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/mailto-link.svg)](https://greenkeeper.io/)
 
 > Generate a mailto protocol link
 

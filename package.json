@@ -20,8 +20,8 @@
     "link"
   ],
   "devDependencies": {
-    "standard": "^4.0.0",
-    "tape": "^4.0.0",
+    "standard": "^16.0.3",
+    "tape": "^5.2.2",
     "tsd": "^0.14.0"
   },
   "files": [
@@ -30,8 +30,8 @@
   ],
   "dependencies": {
     "assert-ok": "~1.0.0",
-    "cast-array": "~1.0.0",
+    "cast-array": "~1.0.1",
     "object-filter": "~1.0.2",
-    "query-string": "~2.4.1"
+    "query-string": "~7.0.0"
   }
 }

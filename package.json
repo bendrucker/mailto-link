@@ -33,5 +33,8 @@
     "cast-array": "~1.0.1",
     "object-filter": "~1.0.2",
     "query-string": "~7.0.0"
+  },
+  "engines": {
+    "node": ">= 12"
   }
 }

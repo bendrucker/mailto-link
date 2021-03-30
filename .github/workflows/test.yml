@@ -15,4 +15,5 @@ jobs:
     strategy:
       matrix:
         node-version:
+        - '12'
         - '14'

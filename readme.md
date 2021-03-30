@@ -1,4 +1,4 @@
-# mailto-link [![Build Status](https://travis-ci.org/bendrucker/mailto-link.svg?branch=master)](https://travis-ci.org/bendrucker/mailto-link)
+# mailto-link [![tests](https://github.com/bendrucker/mailto-link/actions/workflows/test.yml/badge.svg)](https://github.com/bendrucker/mailto-link/actions/workflows/test.yml)
 
 > Generate a mailto protocol link
 

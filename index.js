@@ -1,14 +1,14 @@
 'use strict'
 
-var assert = require('assert-ok')
-var array = require('cast-array')
-var filter = require('object-filter')
-var qs = require('query-string')
+const assert = require('assert-ok')
+const array = require('cast-array')
+const filter = require('object-filter')
+const qs = require('query-string')
 
 module.exports = function mailtoLink (options) {
   assert(options, 'options are required')
 
-  var query = {
+  let query = {
     to: addresses(options.to),
     cc: addresses(options.cc),
     bcc: addresses(options.bcc),
@@ -16,14 +16,13 @@ module.exports = function mailtoLink (options) {
     body: options.body
   }
 
-  var to = query.to
+  const to = query.to
   query = filter(query, Boolean)
   delete query.to
 
-  var querystring = qs.stringify(query)
+  const querystring = qs.stringify(query)
 
   return 'mailto:' + (to || '') + (querystring ? '?' + querystring : '')
-
 }
 
 function addresses (email) {

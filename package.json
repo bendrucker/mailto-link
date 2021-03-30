@@ -11,7 +11,7 @@
     "url": "bendrucker.me"
   },
   "scripts": {
-    "test": "standard && tape test.js"
+    "test": "standard && tape test.js && tsd"
   },
   "keywords": [
     "mailto",
@@ -20,11 +20,13 @@
     "link"
   ],
   "devDependencies": {
+    "standard": "^4.0.0",
     "tape": "^4.0.0",
-    "standard": "^4.0.0"
+    "tsd": "^0.14.0"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "index.d.ts"
   ],
   "dependencies": {
     "assert-ok": "~1.0.0",
